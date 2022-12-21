@@ -4,9 +4,9 @@ from hummingbot.core.api_throttler.data_types import RateLimit, LinkedLimitWeigh
 # A single source of truth for constant variables related to the exchange
 class Constants:
     EXCHANGE_NAME = "bitoreum"
-    REST_URL = "https://v2.bitoreum.io/api/v2/peatio"
-    WS_PRIVATE_URL = "wss://v2.bitoreum.io/api/v2/ranger/private"
-    WS_PUBLIC_URL = "wss://v2.bitoreum.io/api/v2/ranger/public"
+    REST_URL = "https://www.bitoreum.exchange/api/v2/peatio/"
+    WS_PRIVATE_URL = "wss://www.bitoreum.exchange/api/v2/ranger/private"
+    WS_PUBLIC_URL = "wss://www.bitoreum.exchange/api/v2/ranger/public"
 
     HBOT_BROKER_ID = "HBOT"
 
